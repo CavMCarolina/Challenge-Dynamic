@@ -26,12 +26,24 @@ Nesta etapa, foi implementada a lógica de busca e ordenação de peças com alg
 
 ### [2 - Sprint 4 (Grafos e Otimização de Entregas)](./sprint4.ipynb)
 
-Foco na simulação logística, utilizando grafos para encontrar os caminhos mais curtos entre lojas e endereços de entrega.
+Foco na simulação logística, utilizando grafos para encontrar os caminhos mais curtos entre a distribuidora e os endereços de entrega.
 
 #### **Funcionalidades incluídas:**
-- Representação de lojas e clientes em um grafo ponderado com pesos em quilômetros;
-- Cálculo do menor caminho entre dois pontos com o algoritmo de Dijkstra;
-- Simulação de múltiplas entregas com definição de rota otimizada.
+- Representação da distribuidora e das lojas em um grafo ponderado com pesos em quilômetros;
+- Cálculo do menor caminho entre dois pontos com o algoritmo de Dijkstra.
+
+**Imagem do Grafo**<br>
+OBS: Como o grafo possui 20 nós, fica difícil representá-lo visualmente. Tentamos nosso melhor :(
+![alt text](image.png)
+
+---
+
+### 3 - Instalação e Execução
+
+Nesse projeto, foram utilizadas as bibliotecas networkx e matplotlib.pyplot de Python. Para conseguir rodá-lo, tenha certeza de que essas bibliotecas estão instaladas na sua máquina. Siga as instruções:
+- Clone o repositório (git clone https://github.com/CavMCarolina/Challenge-Dynamic.git);
+- Instale as dependências (pip install networkx matplotlib);
+- Execute os Notebooks.
 
 ---
 
